@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 #navBar {
@@ -80,13 +81,14 @@ body {
 
 #bgBlur {
     position: fixed;
-    background-color: rgb(99, 229, 255);
-    height: 50vh;
-    width: 50vh;
+    background-color: #d56406;
+    height: 30vh;
+    width: 30vh;
     z-index: -5;
     border-radius: 50%;
     filter: blur(100px);
     pointer-events: none;
+    left: -50%;
 }
 
 #items {
