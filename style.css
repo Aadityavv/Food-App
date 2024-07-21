@@ -79,13 +79,13 @@ body {
 }
 
 #bgBlur {
-    position: absolute;
+    position: fixed;
     background-color: rgb(99, 229, 255);
     height: 50vh;
     width: 50vh;
     z-index: -5;
     border-radius: 50%;
-    filter: blur(150px);
+    filter: blur(100px);
     pointer-events: none;
 }
 
