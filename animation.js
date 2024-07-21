@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     function addHoverEvent(buttons){
         buttons.style.transform="scale(1.2)"
-        buttons.style.color="red"
+        buttons.style.color="white"
         buttons.style.transition = "transform 0.2s ease-in-out, color 0.2s ease-in-out";
     }
     function removeHoverEvent(buttons){
